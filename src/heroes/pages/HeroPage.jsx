@@ -16,7 +16,8 @@ export const HeroPage = () => {
 
 
   if ( !hero ) {
-    return <Navigate to="/marvel" />
+    return <>404 - Not Found</>
+    // <Navigate to="/marvel" />
   }
   
   return (
@@ -44,7 +45,7 @@ export const HeroPage = () => {
           className="btn btn-outline-primary"
           onClick={ onNavigateBack }
         >
-          Regresar
+          Return
         </button>
 
       </div>
