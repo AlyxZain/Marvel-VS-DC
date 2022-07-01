@@ -49,7 +49,7 @@ export const LoginPage = () => {
                     id='form3Example3'
                     className='form-control'
                   />
-                  <label className='form-label' for='form3Example3'>
+                  <label className='form-label' htmlFor='form3Example3'>
                     Email address
                   </label>
                 </div>
@@ -61,14 +61,14 @@ export const LoginPage = () => {
                     id='form3Example4'
                     className='form-control'
                   />
-                  <label className='form-label' for='form3Example4'>
+                  <label className='form-label' htmlFor='form3Example4'>
                     Password
                   </label>
                 </div>
 
                 <button
                   onClick={onLogin}
-                  type='submit'
+                  type='button'
                   className='btn btn-primary btn-block mb-4'>
                   Login
                 </button>
